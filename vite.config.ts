@@ -8,6 +8,12 @@ export default defineConfig(({ command }) => ({
   resolve: {
     alias: { '@': path.resolve(__dirname, './src') },
   },
+  server: {
+    headers: {
+      'Cross-Origin-Opener-Policy': 'same-origin',
+      'Cross-Origin-Embedder-Policy': 'require-corp',
+    },
+  },
   optimizeDeps: {
     exclude: ['@imgly/background-removal'],
   },
