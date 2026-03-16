@@ -17,7 +17,7 @@ defineEmits<{ generate: [] }>()
 .generate-btn {
   display: block; width: 100%; max-width: 452px; margin: 0 auto;
   padding: 15px; border: none; border-radius: 14px;
-  background: linear-gradient(135deg, #7b8ef5 0%, #5570f1 100%);
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff3838 100%);
   color: #fff; font-size: 16px; font-weight: 600;
   cursor: pointer; font-family: inherit; letter-spacing: 2px;
   -webkit-tap-highlight-color: transparent;
